@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maket</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main>
+        <div class="block small weather">
+            <h1>СЕРПУХОВ</h1>
+            <img src="img/pogoda.png" alt="">
+            <h2>-62 °С</h2>
+        </div>
+
+        <div class="block small bank">
+            <img src="img/tinkoff.png" alt="">
+            <p>Мир *** 9242</p>
+            <h3><span id="balance"></span></h3>
+            <p>Баланс на <span class="date"></span>.<span class="month"></span> <span id="small-clock"></span></p>
+
+            <button>Перевести</button>
+        </div>
+
+        <div class="mini-group">
+          <div class="block mini">
+            <img src="img/ok.png" alt="">
+          </div>
+          <div class="block mini">
+            <img src="img/face.png" alt="">
+          </div>
+          <div class="block mini end">
+            <img src="img/vk.png" alt="">
+          </div>
+          <div class="block mini end">
+            <img src="img/twitch.png" alt="">
+          </div>
+      </div>
+        <div class="block small photos">
+            <img src="img/dora.jpg" alt="">
+            <img src="img/dora.jpg" alt="">
+            <img src="img/dora.jpg" alt="">
+            <img src="img/dora.jpg" alt="">
+            <img src="img/dora.jpg" alt="">
+            <div>+</div>
+        </div>
+
+        <div class="block small music">
+            <img src="img/spoti.png" alt="">
+
+            <h3>ДЫМОК</h3>
+
+            <img src="img/left.png" alt="">
+            <img src="img/start.png" alt="">
+            <img src="img/right.png" alt="">
+        </div>
+
+        <div class="block big clock">
+            <h4 id="clock"></h4>
+            <p><span class="month"></span> <span class="date"></span></p>
+            <p><span id="day"></span></p>
+        </div>
+
+        <div class="small-group">
+            <div class="small-block taxi">
+                <img src="img/taxi.png" alt="">
+                <h4>Такси в пути <br> <span id="taxi-time"></span> <span id="minute">минут</span></h4>
+
+                <button>Связь с водителем</button>
+            </div>
+
+            <div class="small-block satisfaction">
+                <h4>Уведомлений нет...</h4>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
